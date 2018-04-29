@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CE4086FA5B535B6808F232 /* Pods_URLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D7CDC6A4FA58517DCBA435 /* Pods_URLab.framework */; };
 		6E3C4F92204E77A2000B01AF /* URUIButtonHookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C4F91204E77A2000B01AF /* URUIButtonHookViewController.m */; };
 		6E3C4F96204E77F1000B01AF /* UIButton+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C4F95204E77F1000B01AF /* UIButton+Hook.m */; };
 		6E3C4FBB205142DB000B01AF /* URImMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C4FBA205142DB000B01AF /* URImMessageViewController.m */; };
@@ -17,6 +18,14 @@
 		6E3C4FDC20537EA8000B01AF /* URTextContaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C4FDB20537EA8000B01AF /* URTextContaintViewController.m */; };
 		6E3C4FDE20538214000B01AF /* origin.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C4FDD205381A9000B01AF /* origin.geojson */; };
 		6E3C4FE2205384FB000B01AF /* uids.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C4FE1205384FB000B01AF /* uids.txt */; };
+		6E4156E52062500D00467735 /* URBubbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156E42062500D00467735 /* URBubbleViewController.m */; };
+		6E4156EB2062563200467735 /* URAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156EA2062563200467735 /* URAnimationListViewController.m */; };
+		6E4156EE20625B5700467735 /* UIViewController+PushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156ED20625B5700467735 /* UIViewController+PushView.m */; };
+		6E4156F120626BB200467735 /* URBubbyLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156F020626BB200467735 /* URBubbyLayer.m */; };
+		6E4156F72063576100467735 /* URCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156F62063576100467735 /* URCurveViewController.m */; };
+		6E4156FB2063579400467735 /* URCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4156FA2063579400467735 /* URCurveView.m */; };
+		6E54C465206F8CBB00B76E6B /* MFBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E54C464206F8CBB00B76E6B /* MFBannerView.m */; };
+		6E54C468206F8DD800B76E6B /* URBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E54C467206F8DD800B76E6B /* URBannerViewController.m */; };
 		6E6A1A062048EF41003ADE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1A052048EF41003ADE7B /* AppDelegate.m */; };
 		6E6A1A092048EF41003ADE7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1A082048EF41003ADE7B /* ViewController.m */; };
 		6E6A1A0C2048EF41003ADE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A1A0A2048EF41003ADE7B /* Main.storyboard */; };
@@ -26,8 +35,11 @@
 		6E6A1A1E2048EF41003ADE7B /* URLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1A1D2048EF41003ADE7B /* URLabTests.m */; };
 		6E6A1A292048EF41003ADE7B /* URLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1A282048EF41003ADE7B /* URLabUITests.m */; };
 		6E6A1A382048EF72003ADE7B /* URAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1A372048EF72003ADE7B /* URAnimationViewController.m */; };
+		6E6E2985208D8BAD0085F9CA /* URImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E2984208D8BAD0085F9CA /* URImageViewController.m */; };
+		6E6E2988208DB43E0085F9CA /* URImageCheckTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E2987208DB43E0085F9CA /* URImageCheckTypeViewController.m */; };
 		6E9740CF2054E02400BA4D34 /* URDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9740CE2054E02400BA4D34 /* URDownloadViewController.m */; };
 		6E9740D22054E17300BA4D34 /* URDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9740D12054E17300BA4D34 /* URDownloadManager.m */; };
+		6E97AB3A2092D38B004EB742 /* URLayoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97AB392092D38B004EB742 /* URLayoutTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,22 @@
 		6E3C4FDB20537EA8000B01AF /* URTextContaintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URTextContaintViewController.m; sourceTree = "<group>"; };
 		6E3C4FDD205381A9000B01AF /* origin.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = origin.geojson; sourceTree = "<group>"; };
 		6E3C4FE1205384FB000B01AF /* uids.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uids.txt; sourceTree = "<group>"; };
+		6E4156E32062500D00467735 /* URBubbleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URBubbleViewController.h; sourceTree = "<group>"; };
+		6E4156E42062500D00467735 /* URBubbleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URBubbleViewController.m; sourceTree = "<group>"; };
+		6E4156E92062563200467735 /* URAnimationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URAnimationListViewController.h; sourceTree = "<group>"; };
+		6E4156EA2062563200467735 /* URAnimationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URAnimationListViewController.m; sourceTree = "<group>"; };
+		6E4156EC20625B5700467735 /* UIViewController+PushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PushView.h"; sourceTree = "<group>"; };
+		6E4156ED20625B5700467735 /* UIViewController+PushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PushView.m"; sourceTree = "<group>"; };
+		6E4156EF20626BB200467735 /* URBubbyLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URBubbyLayer.h; sourceTree = "<group>"; };
+		6E4156F020626BB200467735 /* URBubbyLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URBubbyLayer.m; sourceTree = "<group>"; };
+		6E4156F52063576100467735 /* URCurveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URCurveViewController.h; sourceTree = "<group>"; };
+		6E4156F62063576100467735 /* URCurveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URCurveViewController.m; sourceTree = "<group>"; };
+		6E4156F92063579400467735 /* URCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URCurveView.h; sourceTree = "<group>"; };
+		6E4156FA2063579400467735 /* URCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URCurveView.m; sourceTree = "<group>"; };
+		6E54C463206F8CBB00B76E6B /* MFBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFBannerView.h; sourceTree = "<group>"; };
+		6E54C464206F8CBB00B76E6B /* MFBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFBannerView.m; sourceTree = "<group>"; };
+		6E54C466206F8DD800B76E6B /* URBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URBannerViewController.h; sourceTree = "<group>"; };
+		6E54C467206F8DD800B76E6B /* URBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URBannerViewController.m; sourceTree = "<group>"; };
 		6E6A1A012048EF41003ADE7B /* URLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6A1A042048EF41003ADE7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E6A1A052048EF41003ADE7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,10 +112,19 @@
 		6E6A1A2A2048EF41003ADE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E6A1A362048EF72003ADE7B /* URAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URAnimationViewController.h; sourceTree = "<group>"; };
 		6E6A1A372048EF72003ADE7B /* URAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URAnimationViewController.m; sourceTree = "<group>"; };
+		6E6E2983208D8BAD0085F9CA /* URImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URImageViewController.h; sourceTree = "<group>"; };
+		6E6E2984208D8BAD0085F9CA /* URImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URImageViewController.m; sourceTree = "<group>"; };
+		6E6E2986208DB43E0085F9CA /* URImageCheckTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URImageCheckTypeViewController.h; sourceTree = "<group>"; };
+		6E6E2987208DB43E0085F9CA /* URImageCheckTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URImageCheckTypeViewController.m; sourceTree = "<group>"; };
 		6E9740CD2054E02400BA4D34 /* URDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URDownloadViewController.h; sourceTree = "<group>"; };
 		6E9740CE2054E02400BA4D34 /* URDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URDownloadViewController.m; sourceTree = "<group>"; };
 		6E9740D02054E17300BA4D34 /* URDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URDownloadManager.h; sourceTree = "<group>"; };
 		6E9740D12054E17300BA4D34 /* URDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URDownloadManager.m; sourceTree = "<group>"; };
+		6E97AB382092D38B004EB742 /* URLayoutTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLayoutTestViewController.h; sourceTree = "<group>"; };
+		6E97AB392092D38B004EB742 /* URLayoutTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLayoutTestViewController.m; sourceTree = "<group>"; };
+		E12432EDFC68F9A80CA836F4 /* Pods-URLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLab/Pods-URLab.release.xcconfig"; sourceTree = "<group>"; };
+		E4D7CDC6A4FA58517DCBA435 /* Pods_URLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BE9B4CAAEC1F8069047514 /* Pods-URLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLab/Pods-URLab.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CE4086FA5B535B6808F232 /* Pods_URLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +158,8 @@
 			children = (
 				6E3C4F94204E77F1000B01AF /* UIButton+Hook.h */,
 				6E3C4F95204E77F1000B01AF /* UIButton+Hook.m */,
+				6E4156EC20625B5700467735 /* UIViewController+PushView.h */,
+				6E4156ED20625B5700467735 /* UIViewController+PushView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -157,6 +197,42 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		6E4156E220624E5300467735 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6E4156F82063578200467735 /* Curve */,
+				6E4156E92062563200467735 /* URAnimationListViewController.h */,
+				6E4156EA2062563200467735 /* URAnimationListViewController.m */,
+				6E4156E32062500D00467735 /* URBubbleViewController.h */,
+				6E4156E42062500D00467735 /* URBubbleViewController.m */,
+				6E4156EF20626BB200467735 /* URBubbyLayer.h */,
+				6E4156F020626BB200467735 /* URBubbyLayer.m */,
+				6E4156F52063576100467735 /* URCurveViewController.h */,
+				6E4156F62063576100467735 /* URCurveViewController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		6E4156F82063578200467735 /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				6E4156F92063579400467735 /* URCurveView.h */,
+				6E4156FA2063579400467735 /* URCurveView.m */,
+			);
+			path = Curve;
+			sourceTree = "<group>";
+		};
+		6E54C462206F8CA400B76E6B /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				6E54C463206F8CBB00B76E6B /* MFBannerView.h */,
+				6E54C464206F8CBB00B76E6B /* MFBannerView.m */,
+				6E54C466206F8DD800B76E6B /* URBannerViewController.h */,
+				6E54C467206F8DD800B76E6B /* URBannerViewController.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
 		6E6A19F82048EF41003ADE7B = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +240,8 @@
 				6E6A1A1C2048EF41003ADE7B /* URLabTests */,
 				6E6A1A272048EF41003ADE7B /* URLabUITests */,
 				6E6A1A022048EF41003ADE7B /* Products */,
+				AD56CE89310C968263D9D044 /* Pods */,
+				B2D69CDCF4DC73BEF04338F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +258,10 @@
 		6E6A1A032048EF41003ADE7B /* URLab */ = {
 			isa = PBXGroup;
 			children = (
+				6E97AB372092D339004EB742 /* Layout */,
+				6E6E2982208D8B9B0085F9CA /* Image */,
+				6E54C462206F8CA400B76E6B /* Banner */,
+				6E4156E220624E5300467735 /* Animation */,
 				6E9740CC2054E01600BA4D34 /* Download */,
 				6E3C4FD920537E0D000B01AF /* Tool */,
 				6E3C4FD22052BE7D000B01AF /* Utils */,
@@ -222,6 +304,17 @@
 			path = URLabUITests;
 			sourceTree = "<group>";
 		};
+		6E6E2982208D8B9B0085F9CA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6E6E2983208D8BAD0085F9CA /* URImageViewController.h */,
+				6E6E2984208D8BAD0085F9CA /* URImageViewController.m */,
+				6E6E2986208DB43E0085F9CA /* URImageCheckTypeViewController.h */,
+				6E6E2987208DB43E0085F9CA /* URImageCheckTypeViewController.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		6E9740CC2054E01600BA4D34 /* Download */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +326,32 @@
 			path = Download;
 			sourceTree = "<group>";
 		};
+		6E97AB372092D339004EB742 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				6E97AB382092D38B004EB742 /* URLayoutTestViewController.h */,
+				6E97AB392092D38B004EB742 /* URLayoutTestViewController.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		AD56CE89310C968263D9D044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6BE9B4CAAEC1F8069047514 /* Pods-URLab.debug.xcconfig */,
+				E12432EDFC68F9A80CA836F4 /* Pods-URLab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2D69CDCF4DC73BEF04338F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4D7CDC6A4FA58517DCBA435 /* Pods_URLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E6A1A2D2048EF41003ADE7B /* Build configuration list for PBXNativeTarget "URLab" */;
 			buildPhases = (
+				1327C121554FA99DEB1629CB /* [CP] Check Pods Manifest.lock */,
 				6E6A19FD2048EF41003ADE7B /* Sources */,
 				6E6A19FE2048EF41003ADE7B /* Frameworks */,
 				6E6A19FF2048EF41003ADE7B /* Resources */,
+				F89C0A2441679ED54C765A74 /* [CP] Embed Pods Frameworks */,
+				ABDFB9C6F7874AA87885D5C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,22 +485,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1327C121554FA99DEB1629CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDFB9C6F7874AA87885D5C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLab/Pods-URLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89C0A2441679ED54C765A74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-URLab/Pods-URLab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLab/Pods-URLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E6A19FD2048EF41003ADE7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E6A1A382048EF72003ADE7B /* URAnimationViewController.m in Sources */,
+				6E54C468206F8DD800B76E6B /* URBannerViewController.m in Sources */,
 				6E3C4FC4205294C4000B01AF /* URPFSView.m in Sources */,
 				6E3C4FBB205142DB000B01AF /* URImMessageViewController.m in Sources */,
 				6E9740CF2054E02400BA4D34 /* URDownloadViewController.m in Sources */,
+				6E6E2985208D8BAD0085F9CA /* URImageViewController.m in Sources */,
+				6E97AB3A2092D38B004EB742 /* URLayoutTestViewController.m in Sources */,
+				6E4156F72063576100467735 /* URCurveViewController.m in Sources */,
 				6E6A1A092048EF41003ADE7B /* ViewController.m in Sources */,
+				6E6E2988208DB43E0085F9CA /* URImageCheckTypeViewController.m in Sources */,
 				6E3C4FDC20537EA8000B01AF /* URTextContaintViewController.m in Sources */,
+				6E4156E52062500D00467735 /* URBubbleViewController.m in Sources */,
+				6E4156EE20625B5700467735 /* UIViewController+PushView.m in Sources */,
 				6E3C4FD52052BEC3000B01AF /* NSString+Utils.m in Sources */,
 				6E3C4F92204E77A2000B01AF /* URUIButtonHookViewController.m in Sources */,
+				6E4156FB2063579400467735 /* URCurveView.m in Sources */,
 				6E3C4FCB2052B667000B01AF /* URTextTableViewCell.m in Sources */,
 				6E6A1A142048EF41003ADE7B /* main.m in Sources */,
 				6E3C4F96204E77F1000B01AF /* UIButton+Hook.m in Sources */,
+				6E54C465206F8CBB00B76E6B /* MFBannerView.m in Sources */,
+				6E4156F120626BB200467735 /* URBubbyLayer.m in Sources */,
+				6E4156EB2062563200467735 /* URAnimationListViewController.m in Sources */,
 				6E6A1A062048EF41003ADE7B /* AppDelegate.m in Sources */,
 				6E9740D22054E17300BA4D34 /* URDownloadManager.m in Sources */,
 				6E3C4FBE2051430C000B01AF /* URImToolView.m in Sources */,
@@ -542,6 +729,7 @@
 		};
 		6E6A1A2E2048EF41003ADE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BE9B4CAAEC1F8069047514 /* Pods-URLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +745,7 @@
 		};
 		6E6A1A2F2048EF41003ADE7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12432EDFC68F9A80CA836F4 /* Pods-URLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

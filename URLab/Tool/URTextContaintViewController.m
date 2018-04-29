@@ -13,6 +13,8 @@
 @property (nonatomic, strong) NSArray *originArray;
 @property (nonatomic, strong) NSArray *moreArray;
 
+@property (nonatomic, strong) UILabel       *testlabel;
+
 @end
 
 @implementation URTextContaintViewController
@@ -22,9 +24,28 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.originArray = [self loadOriginData];
-    self.moreArray = [self getMoreArray];
-    [self compareTxt];
+//    self.originArray = [self loadOriginData];
+//    self.moreArray = [self getMoreArray];
+//    [self compareTxt];
+    
+    self.testlabel = [[UILabel alloc] init];
+    self.testlabel.backgroundColor = [UIColor redColor];
+    self.testlabel.numberOfLines = 0;
+    [self.view addSubview:self.testlabel];
+    
+    [self addData];
+}
+
+- (void)addData
+{
+    NSString *a = @"adjajdfjajdfadf";
+    NSString *b = @"123141442342424234234";
+    
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] init];
+//    text addAttribute:<#(nonnull NSAttributedStringKey)#> value:<#(nonnull id)#> range:<#(NSRange)#>
+    self.testlabel.text = [NSString stringWithFormat:@"%@\n\n%@", a, b];
+    CGSize size = [self.testlabel sizeThatFits:CGSizeMake(100, MAXFLOAT)];
+    self.testlabel.frame = CGRectMake(40, 100, 100, size.height);
 }
 
 - (void)didReceiveMemoryWarning {

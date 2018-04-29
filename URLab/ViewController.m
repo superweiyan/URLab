@@ -12,6 +12,8 @@
 #import "URImMessageViewController.h"
 #import "URTextContaintViewController.h"
 #import "URDownloadViewController.h"
+#import "UIViewController+PushView.h"
+#import "URImageViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -31,7 +33,7 @@
     self.itemTableView.delegate = self;
     self.itemTableView.dataSource = self;
     
-    self.itemArray = @[@"动画", @"hook UIButton", @"IM", @"字符串比较", @"下载"];
+    self.itemArray = @[@"动画", @"hook UIButton", @"IM", @"字符串比较", @"下载", @"动画", @"广告", @"图像处理", @"布局"];
 }
 
 - (void)dealloc
@@ -89,14 +91,20 @@
         else if (indexPath.row == 4) {
             [self pushView:@"URDownloadViewController"];
         }
+        else if (indexPath.row == 5) {
+            [self pushView:@"URAnimationListViewController"];
+        }
+        else if(indexPath.row == 6) {
+            [self pushView:@"URBannerViewController"];
+        }
+        else if(indexPath.row == 7) {
+            [self pushView:@"URImageViewController"];
+        }
+        else if(indexPath.row == 8) {
+            [self pushView:@"URLayoutTestViewController"];
+        }
     }
 }
 
-- (void)pushView:(NSString *)name
-{
-    Class cls = NSClassFromString(name);
-    UIViewController *vc = [[cls alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
 
 @end
